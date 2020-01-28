@@ -1,1 +1,3 @@
-###Blue Movement README
+# Blue Movement Boot Camp
+
+## Getting Started
