@@ -15,5 +15,3 @@
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Atom](https://atom.io/)
 - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
-
-### https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request
