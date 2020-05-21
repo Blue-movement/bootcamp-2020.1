@@ -75,6 +75,7 @@ Provides GitHub shortcuts and paired/shared programming FREE
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
   - [Live Share Extension Pack](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode):
+  
   ```Includes everything you need to start collaboratively editing and```
   ```debugging in real time, including integrated audio and text chat```
   
@@ -82,6 +83,7 @@ Provides GitHub shortcuts and paired/shared programming FREE
 
 - [Atom](https://atom.io/)
   - [Teletype for Atom](https://teletype.atom.io/):
+  
   ```lets developers share their workspace with team members and```
   ```collaborate on code in real time.```
   
