@@ -57,10 +57,9 @@
 
 #### GitHub How-To and Use
 
-```----------------------------------------------------------```
 [![GitHub Basics Tutorial Video](http://img.youtube.com/vi/x0EYpi38Yp4/0.jpg)](http://www.youtube.com/watch?v=x0EYpi38Yp4 " GitHub Basics Tutorial")
-
 ```GitHub Basics Tutorial```
+
 [![GitHub Tutorial 2020 - Beginner's Training Guide Video](http://img.youtube.com/vi/iv8rSLsi1xo/0.jpg)](http://www.youtube.com/watch?v=iv8rSLsi1xo "GitHub Tutorial 2020 - Beginner's Training Guide")
 ```GitHub Tutorial 2020 - Beginner's Training Guide```
 
