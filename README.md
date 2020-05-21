@@ -62,7 +62,6 @@
 
 ```GitHub Basics Tutorial```
 [![GitHub Tutorial 2020 - Beginner's Training Guide Video](http://img.youtube.com/vi/iv8rSLsi1xo/0.jpg)](http://www.youtube.com/watch?v=iv8rSLsi1xo "GitHub Tutorial 2020 - Beginner's Training Guide")
-
 ```GitHub Tutorial 2020 - Beginner's Training Guide```
 
 #### [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -77,12 +76,14 @@ Provides GitHub shortcuts and paired/shared programming FREE
   - [Live Share Extension Pack](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode):
   ```Includes everything you need to start collaboratively editing and```
   ```debugging in real time, including integrated audio and text chat```
+  
   [![VSCode Extensions - Live Share Video](http://img.youtube.com/vi/mJ_QOo_E1U0/0.jpg)](http://www.youtube.com/watch?v=mJ_QOo_E1U0 "VSCode Extensions - Live Share")
 
 - [Atom](https://atom.io/)
   - [Teletype for Atom](https://teletype.atom.io/):
   ```lets developers share their workspace with team members and```
   ```collaborate on code in real time.```
+  
   [![Atom Teletype Tutorial Video](http://img.youtube.com/vi/6TwAHlNpkrc/0.jpg)](http://www.youtube.com/watch?v=6TwAHlNpkrc "Atom Teletype Tutorial")
   
 - Note:
