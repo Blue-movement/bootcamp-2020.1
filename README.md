@@ -59,12 +59,11 @@
 
 ```----------------------------------------------------------```
 [![GitHub Basics Tutorial Video](http://img.youtube.com/vi/x0EYpi38Yp4/0.jpg)](http://www.youtube.com/watch?v=x0EYpi38Yp4 " GitHub Basics Tutorial")
+
 ```GitHub Basics Tutorial```
-```----------------------------------------------------------```
-```----------------------------------------------------------```
 [![GitHub Tutorial 2020 - Beginner's Training Guide Video](http://img.youtube.com/vi/iv8rSLsi1xo/0.jpg)](http://www.youtube.com/watch?v=iv8rSLsi1xo "GitHub Tutorial 2020 - Beginner's Training Guide")
+
 ```GitHub Tutorial 2020 - Beginner's Training Guide```
-```----------------------------------------------------------```
 
 #### [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
@@ -100,12 +99,10 @@ Provides GitHub shortcuts and paired/shared programming FREE
 
 #### Critical Thinking / Problem Solving
 
-```----------------------------------------------------------```
 [![Problem Solving Technique #1 Video](http://img.youtube.com/vi/lD-LuK_VGZI/0.jpg)](http://www.youtube.com/watch?v=lD-LuK_VGZI "Problem Solving Technique #1")
+
 ```Problem Solving Technique #1 for Coding Interviews```
 ```with Google, Amazon, Microsoft, Facebook, etc.```
-```----------------------------------------------------------```
-```----------------------------------------------------------```
 [![How To Think And Problem Solve In Coding Video](http://img.youtube.com/vi/Hb9WUEXdkCE/0.jpg)](http://www.youtube.com/watch?v=Hb9WUEXdkCE "How To Think And Problem Solve In Coding")
+
 ```How To Think And Problem Solve In Coding```
-```----------------------------------------------------------```
