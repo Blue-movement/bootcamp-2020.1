@@ -16,7 +16,7 @@
 - Python
   - String Methods in Python
     - https://www.geeksforgeeks.org/string-data-structure/#Python
-    - https://www.geeksforgeeks.org/python-strings/\
+    - https://www.geeksforgeeks.org/python-strings/
   - Array Methods in Python
     - https://www.w3schools.com/python/python_arrays.asp
     - https://www.geeksforgeeks.org/python-arrays/
