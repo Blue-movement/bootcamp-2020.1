@@ -42,7 +42,7 @@
 
 ## Prompt(s)
 
-- Easy https://www.hackerrank.com/challenges/camelcase/problem, hackerrank.com/challenges/2d-array/problem
+- Easy https://www.hackerrank.com/challenges/camelcase/problem, https://www.hackerrank.com/challenges/2d-array/problem
 - Medium https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem, https://www.hackerrank.com/challenges/sparse-arrays/problem
 - Hard https://www.hackerrank.com/challenges/count-strings/problem, https://www.hackerrank.com/challenges/crush/problem
 
