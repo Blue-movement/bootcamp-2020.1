@@ -42,9 +42,9 @@
 
 ## Prompt(s)
 
-- Easy https://www.hackerrank.com/challenges/camelcase/problem, https://www.hackerrank.com/challenges/2d-array/problem
-- Medium https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem, https://www.hackerrank.com/challenges/sparse-arrays/problem
-- Hard https://www.hackerrank.com/challenges/count-strings/problem, https://www.hackerrank.com/challenges/crush/problem
+- Given a string, find the longest substring which is palindrome. For example, if the given string is "ababad", the output should be "ababa".
+- Given a string str, the task is to print all the permutations of str. A permutation is an arrangement of all or part of a set of objects, with regard to the order of the arrangement. For example, if given "abb", the output should be "abb abb bab bba bab bba"
+
 
 ## Submission
 
