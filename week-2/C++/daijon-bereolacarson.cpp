@@ -19,52 +19,30 @@ Assumptions:
     4. Whichever substring is longer is the character that will return.
 */
 
+bool isPalindrome(string str){
+    for(int i = 0; i <= str.size()/2; ++i){
+        if(str[i] != str[str.size()-1-i]){
+            return false;
+        }
+    }
+    return true;
+}
+
 string longestSubstring(string str){
     //for loop that itirates through each character in the string
     //  for loop that itirates through the string backwards
     //  if both of these strings equal each other then it should be stored in a new array of strings
 
-    //declaring the size of the input string, and the string
-    int size = str.size();
-    string newStr = "";
-    //string test = "";
-
-    //Checking if the string does not have a palindrome
-    if(str[0] == str[size - 1]){
-        for(int i = size - 1;i >= 0;i--){
-            newStr += str[i];
-        }
-        if(str == newStr){
-            return newStr;
-        }
-    }
-    //If the string does have a palindrome, check through each of the character
-    else{
-        for(int j = 0; j < size - 1; j++){
-            for(int k = size - 1; k > 0; k--){
-                if(str[j] == str[k] && k != j){
-                    for(int i = size - 1;i > 0;i--){
-                        newStr += str[i];
-                    }
-                }
-                k = 0;
-                j = size;
+    int len = str.size();
+    for(int size = len; size >= 1; --size){ // test every possible size
+        for(int start = 0; start < len-size; ++start){
+            if(isPalindrome(str.substr(start, size))){
+                return str.substr(start, size);
             }
         }
     }
-    return newStr;
-    /*
-    for(int w = size - 1; w >= 0; w--){
-        test += newStr[w];
-    }
-    if(test == newStr){
-        return newStr;
-    }
-    else{
-        return str;
-    }
-    */
-    
+
+    return "";
 }
 
 // Given a string str, the task is to print all the permutations of str. A permutation is an arrangement of all or part of a set of objects, with regard to the order of the arrangement. For example, if given "abb", the output should be "abb abb bab bba bab bba"
