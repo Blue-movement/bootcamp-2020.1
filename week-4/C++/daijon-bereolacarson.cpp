@@ -39,7 +39,7 @@ void reverseList(Node** headRef){
 }
 
 //adds the nodes in the two linked lists
-Node* addLists(Node* p, Node* q, Node **head){
+Node* addNodes(Node* p, Node* q, Node **head){
     Node *prevNode = NULL;
     int carry = 0;
 
@@ -76,6 +76,20 @@ Node* addLists(Node* p, Node* q, Node **head){
     if (carry > 0){
         prevNode->next = newNode(carry);
     }
+}
+
+//adds lists p and q
+Node* addLists(Node* p, Node* q){
+    Node* out = NULL;
+
+    //reverse p and q
+    reverseList(&p);
+    reverseList(&q);
+
+    addNodes(p, q, &out);
+    reverseList(&out);
+
+    return out;
 }
 
 int main(){
