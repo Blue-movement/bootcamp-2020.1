@@ -15,6 +15,14 @@ Node* newNode(int data){
     node->next = NULL;
     return node;
 }
+
+//inserting the node at the start of the linked list
+void push(Node** headRef, int data){
+    Node* node = newNode(data);
+    node->next = *headRef;
+    *headRef = node;
+}
+
 int main(){
     cout << "Hello world!";
     return 0;
