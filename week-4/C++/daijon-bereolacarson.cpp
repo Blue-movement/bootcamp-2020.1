@@ -91,8 +91,23 @@ Node* addLists(Node* p, Node* q){
 
     return out;
 }
+ void printList(Node* node){
+     while(node != NULL){
+         cout << node->data << "->";
+         node = node->next;
+     }
+     cout << "NULL";
+ }
+int main(void){
+    int x, y;
 
-int main(){
-    cout << "Hello world!";
+    cout << "Enter your first number: ";
+    cin >> x;
+
+    cout << "\n";
+
+    cout << "Enter your second number: ";
+    cin >> y;
+
     return 0;
 }
