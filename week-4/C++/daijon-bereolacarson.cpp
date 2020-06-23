@@ -38,6 +38,46 @@ void reverseList(Node** headRef){
     *headRef = out;
 }
 
+//adds the nodes in the two linked lists
+Node* addLists(Node* p, Node* q, Node **head){
+    Node *prevNode = NULL;
+    int carry = 0;
+
+    //sum = p + q (if there is carry p + q + carry)
+    while(p || q){
+        int sum = 0;
+        if(p)
+            sum += p->data;
+        if(q)
+            sum += q->data;
+        sum += carry;
+
+        //if sum of 2-digit number, reduce it and update carry
+        carry = sum / 10;
+        sum = sum % 10;
+        Node *node = newNode(sum);
+
+        //if the list is empty
+        if(*head == NULL){
+            prevNode = node;
+            *head = node;
+        }
+        else{
+            prevNode->next = node;
+            prevNode = node;
+        }
+        
+        //iterate to the next part of the list
+        if(p)
+            p = p->next;
+        if(q)
+            q = q->next;
+    }
+    if (carry > 0){
+        prevNode->next = newNode(carry);
+    }
+}
+
 int main(){
     cout << "Hello world!";
     return 0;
