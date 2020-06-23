@@ -23,6 +23,21 @@ void push(Node** headRef, int data){
     *headRef = node;
 }
 
+//reverse the linked list
+void reverseList(Node** headRef){
+    Node* out = NULL;
+    Node* curr = *headRef;
+
+    //linked list traversal
+    while(curr){
+        Node* next = curr->next;
+        curr->next = out;
+        out = curr;
+        curr = next;
+    }
+    *headRef = out;
+}
+
 int main(){
     cout << "Hello world!";
     return 0;
