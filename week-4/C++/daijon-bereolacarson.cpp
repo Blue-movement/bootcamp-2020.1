@@ -39,7 +39,7 @@ void reverseList(Node** headRef){
 }
 
 //adds the nodes in the two linked lists
-Node* addNodes(Node* p, Node* q, Node **head){
+void addNodes(Node* p, Node* q, Node **head){
     Node *prevNode = NULL;
     int carry = 0;
 
@@ -93,7 +93,7 @@ Node* addLists(Node* p, Node* q){
 }
  void printList(Node* node){
      while(node != NULL){
-         cout << node->data << "->";
+         cout << node->data << " -> ";
          node = node->next;
      }
      cout << "NULL";
@@ -109,5 +109,19 @@ int main(void){
     cout << "Enter your second number: ";
     cin >> y;
 
+    Node* X = NULL;
+    while(x){
+        push(&X, x % 10);
+        x = x/10;
+    }
+
+    Node* Y = NULL;
+    while(y){
+        push(&Y, y % 10);
+        y = y/10;
+    }
+    cout << "\nResult: ";
+    
+    printList(addLists(X, Y));
     return 0;
 }
