@@ -2,7 +2,6 @@
 #include <cstring>
 #include <vector>
 #include <string>
-#include <deque>
 
 using namespace std;
 //Linked List Class
@@ -50,6 +49,10 @@ Node* reverseList(Node** headRef){
     }
     *headRef = out;
     return *headRef;
+}
+
+void reverseCharList(Node** head){
+    //function to reverse string without reversing words
 }
 
 //adds the nodes in the two linked lists
@@ -178,6 +181,8 @@ int main(void){
     cin >> s;
 
     Node* str = createList(s);
+
+    reverseList(&str);
 
     cout << "\n";
     printCharList(str);
