@@ -1,10 +1,15 @@
 #include <iostream>
+#include <cstring>
+#include <vector>
+#include <string>
+#include <deque>
 
 using namespace std;
 //Linked List Class
 class Node{
     public:
     int data;
+    char c;
     Node* next;
 };
 
@@ -16,6 +21,14 @@ Node* newNode(int data){
     return node;
 }
 
+Node* newCharNode(char c){
+    Node* node = new Node();
+    node->c = c;
+    node->next = NULL;
+    return node;
+}
+/*-------------------Prompt 1------------------*/
+
 //inserting the node at the start of the linked list
 void push(Node** headRef, int data){
     Node* node = newNode(data);
@@ -24,7 +37,7 @@ void push(Node** headRef, int data){
 }
 
 //reverse the linked list
-void reverseList(Node** headRef){
+Node* reverseList(Node** headRef){
     Node* out = NULL;
     Node* curr = *headRef;
 
@@ -36,10 +49,11 @@ void reverseList(Node** headRef){
         curr = next;
     }
     *headRef = out;
+    return *headRef;
 }
 
 //adds the nodes in the two linked lists
-void addNodes(Node* p, Node* q, Node **head){
+void addNodes(Node* p, Node* q, Node** head){
     Node *prevNode = NULL;
     int carry = 0;
 
@@ -91,15 +105,49 @@ Node* addLists(Node* p, Node* q){
 
     return out;
 }
- void printList(Node* node){
-     while(node != NULL){
-         cout << node->data << " -> ";
-         node = node->next;
-     }
-     cout << "NULL";
- }
+/*-------------------Prompt 2------------------*/
+//create a linked list from a string
+Node* createList(string s){
+    Node* head = NULL;
+    Node* temp = NULL;
+
+    for(int i = 0; i < s.length(); i++){
+        char c = s[i];
+        Node* node = newCharNode(c);
+
+        if(head == NULL){
+            head = node;
+            temp = head;
+        }
+        else{
+            temp->next = node;
+            temp = temp->next;
+        }
+    }
+    return head;
+}
+
+//prints linked list
+void printList(Node* node){
+    while(node != NULL){
+        cout << node->data << " -> ";
+        node = node->next;
+    }
+    cout << "NULL";
+}
+
+void printCharList(Node* node){
+    while(node != NULL){
+        cout << node->c << " -> ";
+        node = node->next;
+    }
+    cout << "NULL";
+}
+
 int main(void){
+    cout << "-----Prompt 1-----\n\n";
     int x, y;
+    string s;
 
     cout << "Enter your first number: ";
     cin >> x;
@@ -123,5 +171,16 @@ int main(void){
     cout << "\nResult: ";
     
     printList(addLists(X, Y));
+
+    cout << "\n\n-----Prompt 2-----\n\n";
+    
+    cout << "Enter a string: ";
+    cin >> s;
+
+    Node* str = createList(s);
+
+    cout << "\n";
+    printCharList(str);
+
     return 0;
 }
