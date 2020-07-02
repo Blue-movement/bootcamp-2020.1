@@ -34,29 +34,26 @@ https://ibb.co/H40dhCt
   - HR Practice Problems
     - https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees
 
-  - Free Code Camp “All you Need to Know About Tree DS”
-    - https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
-
-
-  - “4 Data Structures that Every New Developer Should Know"
-    - https://learntocodewith.me/posts/data-structures/
-
-
-  - “How to Not be Stumped by Trees”
-    - https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7
-
-
-  - Trees Introduction - GeeksforGeeks
-    - https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
-
-
-  - HackerEarth Trees Tutorial
-    - https://www.hackerearth.com/practice/data-structures/trees/binary-and-nary-trees/tutorial/Python
-
 
    - Resources
+      - Trees Introduction - GeeksforGeeks
+        - https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
+        
       - Binary Tree Module in Python
         - https://www.geeksforgeeks.org/binarytree-module-in-python/
 
       - C++ Resources Tree C/C++ Programs
         - https://www.geeksforgeeks.org/c-programs-gq/tree-programs-gq/
+        
+      - Free Code Camp “All you Need to Know About Tree DS”
+        - https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
+
+      - “4 Data Structures that Every New Developer Should Know"
+        - https://learntocodewith.me/posts/data-structures/
+
+      - “How to Not be Stumped by Trees”
+        - https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7
+
+      - HackerEarth Trees Tutorial
+        - https://www.hackerearth.com/practice/python/getting-started/input-and-output/tutorial/
+  
