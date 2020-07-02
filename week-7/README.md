@@ -1,4 +1,4 @@
-# Dictionaries & Hashmaps Cont.
+# Dictionaries & Hashmaps
 
 ## Intro
 
