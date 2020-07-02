@@ -56,7 +56,7 @@ https://ibb.co/H40dhCt
 
    - Resources
       - Binary Tree Module in Python
-    - https://www.geeksforgeeks.org/binarytree-module-in-python/
+        - https://www.geeksforgeeks.org/binarytree-module-in-python/
 
- - C++ Resources Tree C/C++ Programs
-      - https://www.geeksforgeeks.org/c-programs-gq/tree-programs-gq/
+      - C++ Resources Tree C/C++ Programs
+        - https://www.geeksforgeeks.org/c-programs-gq/tree-programs-gq/
