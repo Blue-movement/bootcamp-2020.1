@@ -7,10 +7,13 @@
 
 ## Prompt(s)
 Please use a recursion solution for at least one prompt solution.
+
 Find Maximum Difference Between a Node and its Descendants in a Binary Tree.
 https://ibb.co/563hJSG
+
 Write an algorithm to print leaf to root path for every leaf node of the binary tree.
 https://ibb.co/G7sZnDZ
+
 Write an algorith to convert a tree to its mirror.
 https://ibb.co/H40dhCt
 
